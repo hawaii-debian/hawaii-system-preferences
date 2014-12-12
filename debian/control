@@ -1,0 +1,22 @@
+Source: hawaii-system-preferences
+Section: misc
+Priority: optional
+Maintainer: Rohan Garg <rohangarg@kubuntu.org>
+Build-Depends: debhelper (>= 9), cmake, pkg-kde-tools, qtdeclarative5-dev,
+ qttools5-dev-tools,
+ libqtconfiguration-dev
+Standards-Version: 3.9.5
+Homepage: http://www.maui-project.org/
+#Vcs-Git: git://anonscm.debian.org/collab-maint/hawaii-system-preferences.git
+#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/hawaii-system-preferences.git;a=summary
+
+Package: hawaii-system-preferences
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: system preferences for the Hawaii desktop environment.
+ System preferences for the Hawaii desktop environment.
+
+Package: hawaii-system-preferences-dbg
+Architecture: all
+Description: debug package for hawaii-system-preferences
+ Debug package for hawaii-system-preferences.
